@@ -28,3 +28,4 @@ production:
   database: test20230205_production
   username: root
   password: <%= ENV['DATABASE_PASSWORD'] %>
+  socket: /var/lib/mysql/mysql.sock
